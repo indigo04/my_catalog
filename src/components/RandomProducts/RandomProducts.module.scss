@@ -5,8 +5,8 @@
   margin: 0;
   gap: 24px;
   max-width: 1200px;
-
-  @include pagegrid;
+  display: flex;
+  flex-direction: column;
 
   grid-column: 1 / -1;
 
@@ -17,4 +17,10 @@
   @include ondesktop {
     padding-block: 80px;
   }
+}
+
+.RandomProducts__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

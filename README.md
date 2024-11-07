@@ -11,7 +11,12 @@
   <li><b>React Router</b></li>
   <li><b>Redux Toolkit</b></li>
 </ul>
-<h3>Preview: https://indigo04.github.io/my_catalog/#/
+<h3>Figma design:</h3>
+<ul>
+  <li><h3>Original theme: https://www.figma.com/design/T5ttF21UnT6RRmCQQaZc6L/Phone-catalog-(V2)-Original?node-id=0-1&node-type=canvas&t=n762tOi1OcgwSdXC-0</h3></li>
+  <li><h3>Dark theme: https://www.figma.com/design/BUusqCIMAWALqfBahnyIiH/Phone-catalog-(V2)-Original-Dark?node-id=0-1&node-type=canvas&t=nx3p4PZKLWe2uqbb-0</h3></li>
+</ul>
+<h3>Preview: https://indigo04.github.io/my_catalog/#/ </h3>
 <h2>Requirements:</h2>
 <details>
   <br>

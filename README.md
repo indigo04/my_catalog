@@ -9,7 +9,7 @@
   <li><b>TypeScript</b></li>
   <li><b>React</b></li>
   <li><b>React Router</b></li>
-  <li><b>Redux toolkit</b></li>
+  <li><b>Redux Toolkit</b></li>
 </ul>
 <h3>Preview: https://indigo04.github.io/my_catalog/#/
 <h2>Requirements:</h2>

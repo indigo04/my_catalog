@@ -1,21 +1,23 @@
-import React from 'react';
+import { Outlet } from 'react-router-dom';
 import './App.scss';
+import { useAppSelector } from './utils/store';
 
-interface Props {
-  onClick: () => void;
-  children: React.ReactNode;
-}
+export const App = () => {
+  const cart = useAppSelector(state => state.cart);
+  const favourites = useAppSelector(state => state.favourites);
+  const theme = useAppSelector(state => state.theme);
 
-export const Provider: React.FC<Props> = React.memo(({ onClick, children }) => (
-  <button type="button" onClick={onClick}>
-    {children}
-  </button>
-));
+  if (theme === 'dark') {
+    document.body.classList.add('dark-theme');
+  }
 
-export const App: React.FC = () => {
+  localStorage.setItem('cart', JSON.stringify(cart));
+  localStorage.setItem('favourites', JSON.stringify(favourites));
+  localStorage.setItem('theme', theme);
+
   return (
-    <div className="starter">
-      <Provider onClick={() => ({})}>TodoList</Provider>
+    <div className="App">
+      <Outlet></Outlet>
     </div>
   );
 };

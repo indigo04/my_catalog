@@ -1,0 +1,31 @@
+.page {
+  --c-primary: #313237;
+  --c-bg: #fff;
+  --c-hover: #E2E6E9;
+  --c-border: #B4BDC3;
+  --c-secondary: #89939A;
+  --c-button-color: #fff;
+  --c-button-bg: #313237;
+  --c-button-hover: #313237;
+  --c-icons-hover: #fff;
+  --c-border-disabled: #E2E6E9;
+  --c-selected-color: #27AE60;
+  --c-selected-bg: #fff;
+}
+
+.page.dark-theme {
+  --c-primary: #F1F2F9;
+  --c-bg: #0F1121;
+  --c-secondary: #75767F;
+  --c-button-color: #F1F2F9;
+  --c-button-bg: #905BFF;
+  --c-button-hover: #A378FF;
+  --c-icons-hover: #4A4D58;
+  --c-hover: #3B3E4A;
+  --c-border-disabled: #3B3E4A;
+  --c-border: #323542;
+  --c-selected-color: #F1F2F9;
+  --c-selected-bg: #323542;
+}
+
+
